@@ -1,0 +1,77 @@
+.task-column {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  width: 30%; /* Adjust the width based on the container */
+  margin-bottom: 20px;
+}
+
+.task-column .task-column-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 8px;
+}
+.task-column .task-column-status {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.task-column .circle-icon {
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.task-column .status-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.task-column .task-count {
+  font-size: 14px;
+  color: #666;
+}
+
+.task-column .task-header-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.task-column .add-task-button,
+.task-column .more-options-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #666;
+}
+
+.task-column .add-task-button:hover,
+.task-column .more-options-button:hover {
+  color: #333;
+}
+
+.task-column .task-column {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  width: 18%; /* Adjusted to ensure 5 columns fit in a single row */
+}
+
+.task-column .task-column h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.task-column .tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
